@@ -208,3 +208,34 @@ footer {
     margin-top: 20px;
     font-size: 10px;
 }
+
+/* subscribe css starts here */
+
+#subscribe {
+    height: 180px; 
+    width: 200px; 
+    background-color: rgb(231, 231, 44);
+    opacity: 0.8; 
+    margin-left: 20%;
+    font-family: 'Arial';
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 12px;
+    border-radius: 4px;
+    margin-left: 85px;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    border-color: black;
+}
+
+input[type=checkbox] {
+    margin-left: 85px;
+}
+
+#subbutton {
+    background-color: brown;
+    padding: 10px;
+    margin-left: 25%;
+}
