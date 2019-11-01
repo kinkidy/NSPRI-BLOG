@@ -37,7 +37,7 @@ a {
     position: fixed;
     text-align: center;
     margin-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 5%;
     line-height: auto;
@@ -64,7 +64,7 @@ a {
 }
 
 .menu-list-item {
-    margin-bottom: 20px ;
+    margin-bottom: 15px ;
     margin-left: 5px;
     padding-top: 7px;
     width: 100%;
@@ -79,8 +79,8 @@ a {
 button{
     background-color: white;
     border: 1px solid  rgb(129, 24 , 24);
-    padding: 15px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 2px;
     font-weight: 700;
 }
 
@@ -208,3 +208,35 @@ footer {
     margin-top: 20px;
     font-size: 10px;
 }
+
+/* subscribe css starts here */
+
+#subscribe {
+    height: 180px; 
+    width: 200px; 
+    background-color: rgb(231, 231, 44);
+    opacity: 0.8; 
+    margin-left: 20%;
+    font-family: 'Arial';
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 12px;
+    border-radius: 4px;
+    margin-left: 85px;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    border-color: black;
+}
+
+input[type=checkbox] {
+    margin-left: 85px;
+}
+
+#subbutton {
+    background-color: brown;
+    padding: 10px;
+    margin-left: 25%;
+}
+
